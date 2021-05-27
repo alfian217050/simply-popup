@@ -4,7 +4,7 @@ var lagi = true;
 while (lagi) {
   var nama = prompt("Masukkan nama : ");
   if (nama) {
-    alert("Halo " + nama + "!");
+    alert("Halo, " + nama + "!");
   } else if (nama == null) {
     alert("Anda harus memasukkan nama!");
   } else {
