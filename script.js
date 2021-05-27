@@ -6,7 +6,7 @@ while (lagi) {
   if (nama) {
     alert("Halo, " + nama + "!");
   } else if (nama == null) {
-    alert("Anda harus memasukkan nama!");
+    alert("Peringatan: Anda tidak memasukkan nama.");
   } else {
     alert("Anda harus memasukkan nama!");
   }
